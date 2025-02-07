@@ -1,14 +1,14 @@
 const cardsArray = [
-    "/Images/aloy.jpg", "/Images/blastoise.jpg", "/Images/charizard.png", "/Images/chloe.png",
-    "/Images/chun_li.jpg", "/Images/Cpt_Price.jpg", "/Images/DVA.png", "/Images/endermen.png",
-    "/Images/ezi.png", "/Images/geralt.avif", "/Images/greenMario.webp", "/Images/jillValentine.png",
-    "/Images/Kirby.png", "/Images/lara croft.png", "/Images/mario.png", "/Images/MasterChief.png",
-    "/Images/Nathan_drake.webp", "/Images/samus.avif", "/Images/shadowheart.jfif", "/Images/Steve.png",
-    "/Images/tails.png", "/Images/xcom.webp", "/Images/Yennefer.webp", "/Images/yoshi.webp","/Images/1UP.webp", 
-    "/Images/blueShell.webp", "/Images/bomb.webp", "/Images/smashBall.webp", "/Images/star (2).webp", 
+    "Images/aloy.jpg", "Images/blastoise.jpg", "Images/charizard.png", "Images/chloe.png",
+    "Images/chun_li.jpg", "Images/Cpt_Price.jpg", "Images/DVA.png", "Images/endermen.png",
+    "Images/ezi.png", "Images/geralt.avif", "Images/greenMario.webp", "Images/jillValentine.png",
+    "Images/Kirby.png", "Images/lara croft.png", "Images/mario.png", "Images/MasterChief.png",
+    "Images/Nathan_drake.webp", "Images/samus.avif", "Images/shadowheart.jfif", "Images/Steve.png",
+    "Images/tails.png", "Images/xcom.webp", "Images/Yennefer.webp", "Images/yoshi.webp","Images/1UP.webp", 
+    "Images/blueShell.webp", "Images/bomb.webp", "Images/smashBall.webp", "Images/star (2).webp", 
 ];
 
-const cardBackground = "/Images/background.webp";
+const cardBackground = "Images/background.webp";
 let flippedCards = [];
 let matchedPairs = 0;
 const totalPairs = 6;
@@ -241,9 +241,9 @@ function toggleMusic() {
     }
 }
 
-const flipSound = new Audio("/Sounds/Flip Card SOUND Effect.mp3");
-const matchSound = new Audio("/Sounds/Game Show Winner Bell Sound Effect (The Price is Right).mp3");
-const winSound = new Audio("/Sounds/Victory Sound Effect.mp3");
+const flipSound = new Audio("Sounds/Flip Card SOUND Effect.mp3");
+const matchSound = new Audio("Sounds/Game Show Winner Bell Sound Effect (The Price is Right).mp3");
+const winSound = new Audio("Sounds/Victory Sound Effect.mp3");
 
 function playFlipSound() {
     flipSound.play();
