@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styls.css">
+    <title>Card Game</title>
+</head>
+<body>
+    <div class="gameControls">
+        <div class="scoreBoard">Score: <span id="scoreValue">0</span></div>
+        <div class="timer">Time: 00:00</div>
+        <button id="resetButton">Reset</button>
+    </div>
+    
+
+    <button class="music" onclick="toggleMusic()">🎵 Toggle Music</button>
+
+
+    <div class="container">
+        <div id="card1" class="card"></div>
+        <div id="card2" class="card"></div>
+        <div id="card3" class="card"></div>
+        <div id="card4" class="card"></div>
+        <div id="card5" class="card"></div>
+        <div id="card6" class="card"></div>
+        <div id="card7" class="card"></div>
+        <div id="card8" class="card"></div>
+        <div id="card9" class="card"></div>
+        <div id="card10" class="card"></div>
+        <div id="card11" class="card"></div>
+        <div id="card12" class="card"></div>
+    </div>
+
+
+    <audio id="bg-music" loop>
+        <source src="/Sounds/songs to occupy an empty noggin - ԅ(ԅ) [ various nintendo music ].mp3" type="audio/mpeg">
+    </audio>
+    
+        
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
