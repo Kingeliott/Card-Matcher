@@ -241,9 +241,9 @@ function toggleMusic() {
     }
 }
 
-const flipSound = new Audio("Sounds/Flip Card SOUND Effect.mp3");
-const matchSound = new Audio("Sounds/Game Show Winner Bell Sound Effect (The Price is Right).mp3");
-const winSound = new Audio("Sounds/Victory Sound Effect.mp3");
+const flipSound = new Audio("https://media.githubusercontent.com/media/Kingeliott/Card-Matcher/refs/heads/master/Sounds/Flip%20Card%20SOUND%20Effect.mp3");
+const matchSound = new Audio("https://media.githubusercontent.com/media/Kingeliott/Card-Matcher/refs/heads/master/Sounds/Game%20Show%20Winner%20Bell%20Sound%20Effect%20(The%20Price%20is%20Right).mp3");
+const winSound = new Audio("https://media.githubusercontent.com/media/Kingeliott/Card-Matcher/refs/heads/master/Sounds/Victory%20Sound%20Effect.mp3");
 
 function playFlipSound() {
     flipSound.play();
